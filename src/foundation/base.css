@@ -1,0 +1,11 @@
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7;
+}
+
+
+body {
+  background-color: #fafafa;
+  font-family: -apple-system, "BlinkMacSystemFont", "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}

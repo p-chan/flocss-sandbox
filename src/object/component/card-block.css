@@ -1,0 +1,32 @@
+.c-card-block {
+  padding: 15px;
+}
+
+.c-card-block__title {
+  margin: 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.c-card-block__description {
+  margin: 10px 0 0;
+  color: #666;
+  font-size: 11px;
+}
+
+.c-card-block__attributes {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 0;
+  padding: 15px 0 0;
+  border-top: 1px solid #f6f6f6;
+  font-size: 11px;
+}
+
+.c-card-block__attributes__author {
+  color: #777;
+}
+
+.c-card-block__attributes__publish {
+  color: #999;
+}

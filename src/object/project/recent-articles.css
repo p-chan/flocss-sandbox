@@ -1,0 +1,44 @@
+.p-recent-articles__title {
+  padding: 30px 0 25px;
+}
+
+.p-recent-articles__title__main {
+  margin: 0 auto 10px;
+  color: #2d3035;
+  font-size: 21px;
+  text-align: center;
+}
+
+.p-recent-articles__title__sub {
+  margin: 0;
+  color: #2d3035;
+  font-size: 11px;
+  text-align: center;
+}
+
+.p-recent-articles__title__sub:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 1px;
+  margin: 0 auto 10px;
+  background-color: #2d3035;
+}
+
+.p-recent-articles__list {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.p-recent-articles__list__item {
+  margin: 15px 0 0;
+}
+
+.p-recent-articles__list__item:first-child {
+  margin: 0;
+}
+
+.p-recent-articles__more {
+  margin: 15px 0 30px;
+  padding: 0 10px;
+}
