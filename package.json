@@ -1,0 +1,20 @@
+{
+  "name": "flocss-sandbox",
+  "version": "1.0.0",
+  "description": "A sandbox",
+  "scripts": {
+    "start": "npm run serve & npm run watch",
+    "build": "postcss src/index.css -o dist/bundle.css -u postcss-cssnext postcss-import",
+    "watch": "postcss src/index.css -o dist/bundle.css -u postcss-cssnext postcss-import -w",
+    "serve": "budo"
+  },
+  "author": "P-Chan",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "10.0.3",
+    "postcss": "6.0.1",
+    "postcss-cli": "4.0.0",
+    "postcss-cssnext": "2.10.0",
+    "postcss-import": "9.1.0"
+  }
+}
